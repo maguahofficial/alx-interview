@@ -70,7 +70,7 @@ def rm_multiples(ls, x):
     # loop iterates over multiples of a prime number and marks them as
     # non-prime by setting their corresponding value to 0 in the input
     # Thelist ls. Starting from 2, it sets every multiple of x up to the
-    # The length of ls to 0. If the index i * x is out of range for the list ls,
+    # Thelength of ls to 0.if the index i * x is out of range for the list ls,
     for i in range(2, len(ls)):
         try:
             ls[i * x] = 0
